@@ -6,7 +6,7 @@
 		"dev": "next dev",
 		"lint": "next lint",
 		"build": "next build",
-		"start": "next start"
+		"start": "yarn build && next start"
 	},
 	"dependencies": {
 		"next": "12.1.0",
@@ -14,9 +14,10 @@
 		"react-dom": "^17.0.1"
 	},
 	"devDependencies": {
+		"autoprefixer": "^10.0.4",
 		"eslint": "8.13.0",
 		"eslint-config-next": "12.1.5",
 		"postcss": "^8.2.13",
-		"autoprefixer": "^10.0.4"
+		"tailwindcss": "^3.0.0"
 	}
 }
