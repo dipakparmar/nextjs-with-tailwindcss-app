@@ -1,18 +1,20 @@
 {
-  "name": "with-tailwindcss",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "12.1.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "autoprefixer": "^10.0.4",
-    "postcss": "^8.2.13",
-    "tailwindcss": "^2.2.16"
-  }
+	"name": "nextjs-with-tailwindcss",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "12.1.0",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	},
+	"devDependencies": {
+		"tailwindcss": "^3.0.0",
+		"postcss": "^8.2.13",
+		"autoprefixer": "^10.0.4"
+	}
 }
